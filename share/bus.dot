@@ -1,7 +1,4 @@
-// dot share/bus.dot -Tpng -o share/bus.png
-// twopi share/bus.dot -Tpng -o share/bus.png
-// neato share/bus.dot -Tpng -o share/bus.png
-// circo share/bus.dot -Tpng -o share/bus.png
+// circo share/bus.dot -Tsvg -o share/bus.svg
 digraph {
   graph [fontname = "helvetica"];
   node [fontname = "helvetica"];
