@@ -32,4 +32,4 @@ For a project of mine I have to work with nanomsg. Because I'm going to write th
 ![](share/survey.png)
 
 #Bus (Routing)
-![](https://raw.githubusercontent.com/zzeroo/nanomsg-examples/master/share/bus.svg)
+![](share/bus.png)

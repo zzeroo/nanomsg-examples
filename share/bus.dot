@@ -1,4 +1,4 @@
-// circo share/bus.dot -Tsvg -o share/bus.svg
+// circo share/bus.dot -Tpng -o share/bus.png
 digraph {
   graph [fontname = "helvetica"];
   node [fontname = "helvetica"];
