@@ -1,0 +1,19 @@
+// dot share/bus.dot -Tpng -o share/bus.png
+// twopi share/bus.dot -Tpng -o share/bus.png
+// neato share/bus.dot -Tpng -o share/bus.png
+// circo share/bus.dot -Tpng -o share/bus.png
+digraph {
+  graph [fontname = "helvetica"];
+  node [fontname = "helvetica"];
+  edge [fontname = "helvetica"];
+  node0 -> node1 [dir="both"];
+  node1 -> node2 [dir="both"];
+  node2 -> node3 [dir="both"];
+  node3 -> node0 [dir="both"];
+  node0 -> node2 [dir="both"];
+  node1 -> node3 [dir="both"];
+  node0 [fontsize=10 width=0.5 shape=circle];
+  node1 [fontsize=10 width=0.5 shape=circle];
+  node2 [fontsize=10 width=0.5 shape=circle];
+  node3 [fontsize=10 width=0.5 shape=circle];
+}

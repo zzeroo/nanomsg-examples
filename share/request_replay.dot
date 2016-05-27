@@ -1,0 +1,10 @@
+// dot share/request_replay.dot -Tpng -o share/request_replay.png
+digraph {
+  graph [fontname = "helvetica"];
+  node [fontname = "helvetica"];
+  edge [fontname = "helvetica"];
+  rankdir=LR;
+  node0->node1 [dir="both"];
+  node0 [fontsize=10 width=0.5 shape=circle];
+  node1 [fontsize=10 width=0.5 shape=circle];
+}

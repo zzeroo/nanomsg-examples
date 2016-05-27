@@ -1,0 +1,13 @@
+// circo share/pub_sub.dot -Tpng -o share/pub_sub.png
+digraph {
+  graph [fontname = "helvetica"];
+  node [fontname = "helvetica"];
+  edge [fontname = "helvetica"];
+  server -> client0 [dir=""];
+  server -> client1 [dir=""];
+  server -> client2 [dir=""];
+  server [fontsize=10 width=0.5 shape=circle];
+  client0 [fontsize=10 width=0.5 shape=circle];
+  client1 [fontsize=10 width=0.5 shape=circle];
+  client2 [fontsize=10 width=0.5 shape=circle];
+}

@@ -1,0 +1,13 @@
+// circo share/survey.dot -Tpng -o share/survey.png
+digraph {
+  graph [fontname = "helvetica"];
+  node [fontname = "helvetica"];
+  edge [fontname = "helvetica"];
+  server -> client0 [dir="both"];
+  server -> client1 [dir="both"];
+  server -> client2 [dir="both"];
+  server [fontsize=10 width=0.5 shape=circle];
+  client0 [fontsize=10 width=0.5 shape=circle];
+  client1 [fontsize=10 width=0.5 shape=circle];
+  client2 [fontsize=10 width=0.5 shape=circle];
+}
