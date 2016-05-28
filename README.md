@@ -1,4 +1,4 @@
-# Nanomsg Examples
+# Nanomsg-rs Examples
 
 > Nanomsg is a modern messaging library that is the successor to ZeroMQ, written in C by Martin Sustrik and colleagues. The nanomsg library is licensed under MIT/X11 license. "nanomsg" is a trademark of 250bpm s.r.o.
 >
