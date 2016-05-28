@@ -1,6 +1,7 @@
 [package]
 name = "nanomsg-examples"
 version = "0.1.0"
-authors = ["Stefan Müller <s.mueller@it.kls-glt.de>"]
+authors = ["zzeroo <co@zzeroo.com>"]
 
 [dependencies]
+nanomsg = "0.5.0"
