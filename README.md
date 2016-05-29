@@ -26,18 +26,18 @@ use std::io::{Read, Write};
 
 fn node0(url: String) {
     let mut socket = Socket::new(Protocol::Pull).unwrap();
-    let mut text = String::new();
+    let mut request = String::new();
     let _ = socket.bind(&url); // let _ = means we don't need any return value stored somewere
 
     loop {
-        match socket.read_to_string(&mut text) {
-            Ok(_) => println!("NODE0: RECEIVED '{}'", text),
+        match socket.read_to_string(&mut request) {
+            Ok(_) => println!("NODE0: RECEIVED '{}'", request),
             Err(err) => {
                 println!("NODE0: failed '{}'", err);
                 break
             }
         }
-        text.clear();
+        request.clear();
     }
 }
 
