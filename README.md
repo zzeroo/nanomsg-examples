@@ -85,10 +85,10 @@ cargo build --example pipeline
 ```
 ### Run this example
 ```
-cargo run --example pipeline -- node0 ipc:///tmp/pipeline.ipc & node0=$! && sleep 1
+cargo run --example pipeline -- node0 ipc:///tmp/pipeline.ipc &
 cargo run --example pipeline -- node1 ipc:///tmp/pipeline.ipc "Hello, World\!"
 cargo run --example pipeline -- node1 ipc:///tmp/pipeline.ipc "Goodbye."
-kill $node0
+killall pipeline
 ```
 ### Expected output
 ```
