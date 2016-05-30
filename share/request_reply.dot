@@ -1,4 +1,4 @@
-// dot share/request_replay.dot -Tpng -o share/request_replay.png
+// dot share/request_reply.dot -Tpng -o share/request_reply.png
 digraph {
   graph [fontname = "helvetica"];
   node [fontname = "helvetica"];
