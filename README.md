@@ -195,8 +195,12 @@ cargo run --example request_reply -- node0 ipc:///tmp/request_reply.ipc &
 cargo run --example request_reply -- node1 ipc:///tmp/request_reply.ipc
 killall request_reply
 ```
-### Expected output
+### Expected output, your date is certainly another
 ```
+NODE1: SENDING DATE REQUEST DATE
+NODE0: RECEIVED DATE REQUEST
+NODE0: SENDING DATE Mon May 30 12:02:01 2016
+NODE1: RECEIVED DATE Mon May 30 12:02:01 2016
 ```
 
 # Pair (Two Way Radio)
